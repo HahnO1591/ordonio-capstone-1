@@ -1,0 +1,48 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+/*Nav Section*/
+
+
+/*About Section*/
+
+.nav-item a:hover {
+	color: orange;
+}
+
+
+.display-1{
+  font-size: 100px;
+  font-weight: 800;
+  
+}
+
+.col-sm-6 h6 {
+ 	font-weight: 500;
+ 	color: orange;
+}
+
+
+/*Portfolio*/
+.portfolio-item .portfolio-btn {
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 50%;
+  left: 50%;
+  border-radius: 4px;
+  opacity: 0;
+  transition: .5s;
+}
+
+.portfolio-item:hover .portfolio-btn {
+  opacity: 0.3;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+}
