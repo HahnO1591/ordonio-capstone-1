@@ -9,26 +9,35 @@
 	<!-- Bootstrap Link -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- Font fontawesome -->
+  <script src="https://kit.fontawesome.com/097738dcd2.js" crossorigin="anonymous"></script>
+
 	<link rel="stylesheet" type="text/css" href="./style.css">
 
     </head>
     <body>
 
         <!-- Navbar bar Start-->
-    <nav class="navbar navbar-expand-lg bg-light navbar-light fixed-top sticky-top py-3 py-lg-0 px-lg-5 border-dark border-3 border-bottom">
+    <nav class="navbar navbar-expand-lg bg-light navbar-light fixed-top sticky-top py-3 py-lg-0 px-lg-5 border-dark border-2 border-bottom">
+
     	<div class="container-fluid">
          <a class="navbar-brand ml-lg-3" href="index.html">
-            <h1 class="m-0 display-5"><span class="text-dark">Hahn</span> O.</h1>
+            <h2 class="m-0 display-5"><span class="text-dark">Hahn</span> O.</h2>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse px-lg-3 text-center" id="navbarNav">
+        <div class="collapse navbar-collapse px-lg-3 text-center" id="home">
             <div class="navbar-nav m-auto py-0">
-                <a class="nav-item nav-link active" href="#home">Home</a>
+                <a class="nav-item nav-link active" href="index.html">Home</a>
                 <a class="nav-item nav-link" href="#about">About Me</a>
-                <a class="nav-item nav-link" href="#qualification">Projects</a>
-                <a class="nav-item nav-link" href="#skill">Contact</a>
+                <a class="nav-item nav-link" href="#projects">Projects</a>
+                <a class="nav-item nav-link" href="#contact">Contact</a>
             </div>
            
         </div>
@@ -42,10 +51,11 @@
        		<div class="row bg-warning justify-content-center align-items-center py-4 py-lg-5 py-sm-0 min-vh-100" id="landing">
                 
                 <div class="col-md-7 col-lg-5 pl-md-5 py-lg-5 order-lg-1 order-md-1 order-sm-2">
-                	<h3 class="text-center text-white text-md-left mb-md-3 mb-sm-2">Hello, my name is</h3>
+                	<h3 class="text-center text-secondary text-md-left mb-md-3 mb-sm-2">Hello, my name is</h3>
                     <h1 class="mt-2 text-center text-uppercase text-md-left mb-sm-1">Hannah Faye Ordonio</h1>
-                    <h4 class="my-3 text-center text-md-left">Web Developer, Graphic Designer</h4>
-                    
+                    <h4 class="my-3 text-center text-md-left">from Quezon City, Philippines</h4>
+                    <h4 class="my-3 text-center text-md-left text-danger" >I'm a Full Stack Web Developer, Graphic designer with a art and design background. </h4>
+
                 </div>
                 <div class="order-1 col-10 col-md-3 p-3 py-lg-5 order-lg-2 order-md-1 order-sm-1">
                     <img src="./image/Hannah's Profile.jpg" class="rounded-circle border border-dark img-fluid">
@@ -66,7 +76,7 @@
                 
                 <div class="col-lg-7">
                     <h3 class="mb-4">Web Developer & Graphic Designer</h3>
-                    <p>I became a Graphic Designer for almost 2 years now. </p>
+                    <p>I started to have an interest in Web Development while I was taking Food Technology. Then I decided to shift my course to a BS in Information Technology. I realized that I am passionate about everything related to web development. After graduating since I am the breadwinner of the family I worked as a Customer Service Representative handling Us Telco, since designing and creating web development is my passion I decided to go back to web development. I follow up on the most recent changes in web development and I am very active in the open-source environment. </p>
                     <div class="row mb-3">
                         <div class="col-sm-6 py-2"><h6>Name: <span class="text-secondary">Hannah Faye A. Ordonio</span></h6></div>
                         <div class="col-sm-6 py-2"><h6>Birthday: <span class="text-secondary">March 15, 1991</span></h6></div>
@@ -77,80 +87,164 @@
                         <div class="col-sm-6 py-2"><h6>Address: <span class="text-secondary">#120 Road 3 Brgy. Bagong Pag-asa Novaliches Quezon City, Philippines </span></h6></div>
                         <div class="col-sm-6 py-2"><h6>Freelance: <span class="text-secondary">Available</span></h6></div>
                     </div>
-                    <a href=""type="button" class="btn btn-outline-dark">View my CV Here</a>
+                    <a href="./image/Hannah Resume 2022.pdf "type="button" class="btn btn-outline-dark" download>View my CV Here</a>
 
                 </div>
             </div>
         </div>
     </div>
     <!-- About Me End -->
+
+    <!-- Qualification Start -->
+    <div class="container-fluid py-5" id="educ-experience">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-warning">Education & Experience</h1>
+                
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h3 class="mb-4">Education & Training</h3>
+                    <div class="border-left border-primary pt-2 pl-4 ml-2">
+                        <div class="position-relative ex-me mb-4 px-4">
+                           <i class="far fa-dot-circle text-dark position-absolute ps-4"></i>
+                            <h5 class="education text-secondary p">Full Stack Web Development</h5>
+                            <p class="mb-2"><strong>Zuitt Boocamp</strong>
+                            <small>May 2, 2022 to current</small>
+                            <p>Front and Back-end</p>
+                            <a href="" type="button" class="btn btn-outline-danger" download><em>Certificate available soon</em></a>
+                        </div>
+
+                        <div class="position-relative ex-me mb-4 px-4">
+                           <i class="far fa-dot-circle text-dark position-absolute ps-4"></i>
+                            <h5 class="education text-secondary">CSS3</h5>
+                            <p class="mb-2"><strong>Programming Hub</strong>
+                            <small>April 29, 2022 to May 3, 200</small>
+                            <p>Attend Training for CSS3 Review</p>
+                            <a href="./image/Hannah Faye Ordonio_CSS.pdf "type="button" class="btn btn-outline-warning" download>View my Certificate</a>
+                        </div>
+
+                        <div class="position-relative ex-me mb-4 px-4">
+                           <i class="far fa-dot-circle text-dark position-absolute ps-4"></i>
+                            <h5 class="education text-secondary">HTML 5</h5>
+                            <p class="mb-2"><strong>Programming Hub</strong>
+                            <small>April 29, 2022 to May 1, 200</small>
+                            <p>Attend Training for HTML5 Review</p>
+                            <a href="./image/Hannah Faye Ordonio_HTML.pdf "type="button" class="btn btn-outline-warning" download>View my Certificate</a>
+                        </div>
+
+                        
+                        <div class="position-relative ex-me mb-4 px-4">
+                           <i class="far fa-dot-circle text-dark position-absolute ps-4"></i>
+                            <h5 class="education text-secondary">Digital Marketing</h5>
+                            <p class="mb-2"><strong>Programming Hub</strong>
+                            <small>April 10, 2022 to April 19, 200</small>
+                            <p>This course focuses how to know ideal customers when they are on Google through SEO & PPC, on social media with social media marketing, & through email with email marketing. </p>
+                            <a href="./image/Hannah Faye Ordonio_Digital Marketing.pdf "type="button" class="btn btn-outline-warning" download>View my Certificate</a>
+                        </div>
+
+                        <div class="position-relative ex-me mb-4 px-4">
+                           <i class="far fa-dot-circle text-dark position-absolute ps-4"></i>
+                            <h5 class="education text-secondary">Bachelor of Science in Information Technology major in Application Development</h5>
+                            <p class="mb-2"><strong>Quezon City Polytechnic University</strong>
+                            <small>2009 to 2013</small>
+                            <p>My course is more focus on stuying differnt programming langauges such as turbo C, C++, C#, Visual Basic, VB.Net, Java full stack Web Development. </p>
+                        </div>
+
+                        <h3 class="mb-4">My Work Experience</h3>
+
+                        <div class="position-relative ex-me mb-4 px-4">
+                           <i class="far fa-dot-circle text-dark position-absolute ps-4"></i>
+                            <h5 class="education text-secondary">Graphic Designer</h5>
+                            <p class="mb-2"><strong>Hahn Craft</strong>
+                            <small>March 12, 2018 to current</small>
+                            <p>I started my own business since 2018. Developed artwork and layout for print for T-shirts, mugs, Eco-bags, mousepad, keychains, logo, banners, using Adobe Photoshop and Adobe Illustrator.</p>
+                        </div>
+
+                        <div class="position-relative ex-me mb-4 px-4">
+                           <i class="far fa-dot-circle text-dark position-absolute ps-4"></i>
+                            <h5 class="education text-secondary">Graphic Designer</h5>
+                            <p class="mb-2"><strong>Sew Fab Shop</strong>
+                            <small>March 12, 2018 to March 2021</small>
+                            <p>Developed artwork and layout for print for T-shirts, mugs, Eco-bags, mousepad, keychains and etc., using Adobe Photoshop and Adobe Illustrator.</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Qualification End -->
      
 
  			<!-- Portfolio Start -->
-    <div class="container-fluid pt-5 pb-3 bg-warning" id="portfolio">
+    <div class="container-fluid pt-5 pb-3 bg-warning" id="projects">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
                 <h1 class="display-1 text-uppercase text-white">My Projects</h1>
                 
             </div>
+            <h5 class="text-dark text-center pt-6">Here are my sample logos, graphic designs and websites</h5>
           
             <div class="row portfolio-container">
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item">
                     <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/portfolio-1.jpg" alt="">
+                        <img class="img-fluid rounded w-100" src="image/blog-1.jpg" alt="">
                         <div class="portfolio-btn bg-warning d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-1.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            <a href="image/blog-1.jpg" data-lightbox="portfolio">
+                                
                             </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item">
                     <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/portfolio-2.jpg" alt="">
+                        <img class="img-fluid rounded w-100" src="image/blog-2.jpg" alt="">
                         <div class="portfolio-btn bg-warning d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-2.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            <a href="image/blog-2.jpg" data-lightbox="portfolio">
+                                
                             </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item">
                     <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/portfolio-3.jpg" alt="">
+                        <img class="img-fluid rounded w-100" src="./image/blog-3.jpg" alt="">
                         <div class="portfolio-btn bg-warning d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-3.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            <a href="./image/blog-3.jpg" data-lightbox="portfolio">
+                                
                             </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item">
                     <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/portfolio-4.jpg" alt="">
+                        <img class="img-fluid rounded w-100" src="./image/blog-4.jpg" alt="">
                         <div class="portfolio-btn bg-warning d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-4.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            <a href="./image/blog-4.jpg" data-lightbox="portfolio">
+                                
                             </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item">
                     <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/portfolio-5.jpg" alt="">
+                        <img class="img-fluid rounded w-100" src="./image/blog-5.jpg" alt="">
                         <div class="portfolio-btn bg-warning d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-5.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            <a href="./image/blog-5.jpg" data-lightbox="portfolio">
+                                
                             </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item">
                     <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/portfolio-6.jpg" alt="">
+                        <img class="img-fluid rounded w-100" src="./image/blog-6.jpg" alt="">
                         <div class="portfolio-btn bg-warning d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-6.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            <a href="./image/blog-6.jpg" data-lightbox="portfolio">
+                                
                             </a>
                         </div>
                     </div>
@@ -161,55 +255,68 @@
     <!-- Portfolio End -->
 
     <!-- Contact Me Start-->
-    <!-- Contact Start -->
     <div class="container-fluid py-5" id="contact">
-        <div class="container py-5">
+        <div class="container">
+            
+
             <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-warning">Contact Me</h1>
                 
-                <h1 class="display-1 position-absolute text-uppercase text-warning">Contact Me</h1>
-            </div
-            >
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="contact-form text-center">
-                        <div id="success"></div>
-                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                            <div class="form-row">
-                                <div class="control-group col-sm-6">
-                                    <input type="text" class="form-control p-4" id="name" placeholder="Your Name"
-                                        required="required" data-validation-required-message="Please enter your name" />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="control-group col-sm-6">
-                                    <input type="email" class="form-control p-4" id="email" placeholder="Your Email"
-                                        required="required" data-validation-required-message="Please enter your email" />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="control-group">
-                                <input type="text" class="form-control p-4" id="subject" placeholder="Subject"
-                                    required="required" data-validation-required-message="Please enter a subject" />
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="control-group">
-                                <textarea class="form-control py-3 px-4" rows="5" id="message" placeholder="Message"
-                                    required="required"
-                                    data-validation-required-message="Please enter your message"></textarea>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div>
-                                <button class="btn btn-outline-primary" type="submit" id="sendMessageButton">Send
-                                    Message</button>
-                            </div>
-                        </form>
-                    </div>
+            </div>
+
+            
+                    
+                      
+                        
+                <div class="col-md-12 my-6 pt-6">
+                    <h4 class="text-center my-4 text-dark">Contact</h4>
+                    <form class="col-12 offset-sm-1 offset-md-1 offset-xl-1 col-md-8 col-xl-4 bg-warning p-3 w-50 rounded mx-auto">
+                      <div class="mb-3">
+                        <label for="name" class="form-label text-dark">Name</label>
+                        <input type="text" class="form-control" id="name" aria-describedby="nameHelp" placeholder="Your Name">
+                      </div>
+                      <div class="mb-3">
+                        <label for="email" class="form-label text-dark">Email Address</label>
+                        <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                      </div>
+                      <div class="mb-3">
+                        <label for="contactNumber" class="form-label text-dark">Contact Number</label>
+                        <input type="text" class="form-control" id="contactNumber" placeholder="+63 900 000 0000">
+                      </div>
+                      
+                      <div class="mb-3">
+                        <label class="text-dark form-label" for="message">Message Me</label>
+                        <textarea class="form-control" id="message" rows="7"></textarea>
+                        
+                      </div>
+
+
+                      <button type="submit" class="btn btn-dark">Send Email</button>
+                    </form>
                 </div>
+                
             </div>
         </div>
     </div>
-    <!-- Contact End -->
 
     <!-- Contact Me End -->
+
+    <!-- Footer Start-->
+    <footer class="mt-5 p-3 bg-warning text-center" id="footer">
+            <i class="social-icon fab fa-facebook-f p-3"></i>
+            <i class="social-icon fab fa-twitter p-3"></i>
+            <i class="social-icon fab fa-instagram p-3"></i>
+            <i class="social-icon fas fa-envelope p-3"></i>
+            <h6>Hannah Faye Ordonio</h6>
+            <p>Full Stack Web Developer</p>
+            <p>© Copyright Hahn O.</p>
+    <div class="container-fluid">
+    
+    
+    </div>
+
+    </footer>
+    <!-- Footer End -->
 
 
 <!-- Bootstrap Script -->
